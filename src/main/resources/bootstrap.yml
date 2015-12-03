@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: sjes-gateway-admin
+  cloud:
+    config:
+      uri: http://config.sj.com
+      #uri: http://srv3.sanjiang.info:8888
+      fail-fast: true
+#zuul:
+#  routes:
+#    #用户服务
+#    users:
+#      path: /users/**
+#      stripPrefix: false
+#      serviceId: sjes-api-user
+
